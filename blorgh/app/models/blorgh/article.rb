@@ -14,10 +14,15 @@ module Blorgh
     has_many :comments
   end
   
+  
   private
     def set_author
-      self.author_name = User.find_or_create_by(name: author_name)
-      # author = User.find_or_create_by(name: :author_name)
-      # author = User.find_or_create_by(name: @author_name)
+      self.author = User.find_or_create_by(name: author_name)
     end
+  # private
+  #   def set_author
+  #     self.author_name = User.find_or_create_by(name: author_name)
+  #     # author = User.find_or_create_by(name: :author_name)
+  #     # author = User.find_or_create_by(name: @author_name)
+  #   end
 end
