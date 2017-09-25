@@ -3,12 +3,12 @@ module Blorgh
     include ActiveModel::Validations
     include ActiveModel::Validations::Callbacks
     
+    before_validation :set_author 
+    
     attr_accessor :author_name
     
     belongs_to :author, class_name: Blorgh.author_class.to_s
-   
-    before_validation :set_author 
-    
+
     has_many :comments
 
   private
