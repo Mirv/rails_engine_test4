@@ -1,7 +1,5 @@
 module Blorgh
   class Article < ApplicationRecord
-    include ActiveModel::Validations
-    include ActiveModel::Validations::Callbacks
     
     before_validation :set_author 
     
