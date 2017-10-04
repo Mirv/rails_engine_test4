@@ -7,6 +7,8 @@ module Blorgh
     setup do
       # @article = Article.new()
       @routes = Blorgh::Engine.routes
+
+      # puts "Routes:  #{@routes.Rails::Engine.subclasses}"
     end
 
     test "should get index" do
@@ -20,7 +22,10 @@ module Blorgh
     end
 
     test "should create article" do
-      @article = blorgh_articles(title: MyString, text: MyText)
+      @article = Blorgh::Article.new
+      # @article = Blorgh::Engine::Article.new(title: MyString, text: MyText)
+      # @article = Blorgh::Engine::Articles.new(title: MyString, text: MyText)
+      # @article = Blorgh::Articles.new(title: MyString, text: MyText)
       # @article = Blorgh::Article.new(title: MyString, text: MyText)
       # @article = Engine::Blorgh::Article.new(title: MyString, text: MyText)
       # @article = Engines::Blorgh::Article.new(title: MyString, text: MyText)
