@@ -22,7 +22,7 @@ module Blorgh
     end
 
     test "should create article" do
-      @article = Blorgh::Article.new
+      @article = Blorgh::Article.new(title: "MYSTRING")
       # @article = Blorgh::Engine::Article.new(title: MyString, text: MyText)
       # @article = Blorgh::Engine::Articles.new(title: MyString, text: MyText)
       # @article = Blorgh::Articles.new(title: MyString, text: MyText)
