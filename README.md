@@ -1,16 +1,14 @@
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
+   Rails engine test bed for 'mirv/game_enrollment'
+   
     ----------------------------------------------------------------- 
 
 
 ## Project notes 
 
-- https://github.com/Mirv/rails-engine-test
+- 'https://github.com/Mirv/rails-engine-test'
 - Requires User table with a name column as string
+- Main project at 'https://github.com/Mirv/game_enrollment'
 
 ## Support & Documentation
 
