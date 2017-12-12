@@ -1,5 +1,5 @@
 
-   Rails engine test bed for 'mirv/game_enrollment'
+# Rails engine test bed for 'mirv/game_enrollment'
    
     ----------------------------------------------------------------- 
 
