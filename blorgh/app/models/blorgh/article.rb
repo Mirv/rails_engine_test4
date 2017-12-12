@@ -8,6 +8,9 @@ module Blorgh
     belongs_to :author, class_name: Blorgh.author_class.to_s
 
     has_many :comments
+    
+    validates :title, presence: true
+    validates :text, presence: true 
 
   private
     def set_author
